@@ -3,6 +3,11 @@
 //ini_set("display_errors", 1);
 //ini_set('error_reporting', E_ALL);
 
+error_reporting(0);  //E_ALL
+ini_set("display_errors", 0); // 1
+ini_set('error_reporting', 0); // E_ALL
+
+
 require_once "NumberingSystem.php";
 require_once "Number2Words.php";
 
